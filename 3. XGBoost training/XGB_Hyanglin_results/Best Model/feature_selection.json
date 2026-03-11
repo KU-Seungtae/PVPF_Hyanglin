@@ -1,0 +1,34 @@
+{
+  "low_corr_thr": 0.3,
+  "dropped_low_corr": [
+    "ambient_temperature",
+    "month",
+    "day",
+    "hour",
+    "minute",
+    "wind_direction_1min_avg",
+    "wind_speed_1min_avg",
+    "wind_direction_gust",
+    "wind_speed_gust",
+    "wind_direction_10min_avg",
+    "wind_speed_10min_avg",
+    "air_temperature_1min_avg",
+    "precipitation_detected",
+    "rainfall_15min_accumulated",
+    "rainfall_60min_accumulated",
+    "rainfall_12h_accumulated",
+    "daily_rainfall_accumulated",
+    "atmospheric_pressure_local",
+    "atmospheric_pressure_sea_level",
+    "dew_point_temperature"
+  ],
+  "high_corr_thr": null,
+  "dropped_high_corr": [],
+  "selected_features": [
+    "surface_temperature",
+    "global_horizontal_irradiance",
+    "plane_of_array_irradiance",
+    "relative_humidity"
+  ],
+  "n_selected_features": 4
+}
