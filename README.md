@@ -5,7 +5,7 @@ End-to-end pipeline for short-term photovoltaic (PV) power forecasting using XGB
 ## Pipeline overview
 
 | Folder | Description |
-|--------|-------------|
+|----------|-------------|
 | **1. KMA** | Meteorological data acquisition via Korea Meteorological Administration API |
 | **2. PV Power Data** | Raw PV power CSV aggregation and merge with weather data |
 | **3. XGBoost Training** | Optuna hyperparameter tuning, feature selection, and model training |
