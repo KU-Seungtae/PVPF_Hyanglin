@@ -33,4 +33,5 @@ xgb_hyangrin_results/
           ...
 ```
 
-The best configuration (by test RMSE) is saved under `holdout/window_flatten/win_16/high_none_low_0.3/` and is used by `5. Program` for inference.
+The training pipeline saves the optimal configuration (lowest test RMSE) to `holdout/window_flatten/win_16/high_none_low_0.3/`. The `5. Program module` uses this exact path for inference. 
+For the GitHub repository, we uploaded only this specific directory to represent the `Best Model/`.
