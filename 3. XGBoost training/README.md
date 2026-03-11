@@ -7,7 +7,7 @@ Hyperparameter optimization and model training for short-term PV power predictio
 | File | Description |
 |------|-------------|
 | `XGBoost.ipynb` | Main pipeline: load data, feature selection, window flatten, Optuna tuning, test evaluation, artifact saving |
-| `xgb_hyangrin_results/` | Output directory for all experiment runs |
+| `XGB_Hyanglin_results/` | Output directory for all experiment runs |
 
 ## Configuration
 
